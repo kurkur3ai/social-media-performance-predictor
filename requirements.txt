@@ -1,0 +1,31 @@
+# ── EDA notebook ──────────────────────────────────────────────────────────────
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+
+# ── Training notebook ──────────────────────────────────────────────────────────
+scikit-learn>=1.3
+xgboost>=2.0
+tqdm>=4.65
+pyarrow>=14.0          # parquet read/write
+
+# ── LLM / Groq + Ollama ──────────────────────────────────────────────────────
+groq>=0.9.0
+openai>=1.0             # used for Ollama's OpenAI-compatible endpoint
+python-dotenv>=1.0
+
+# ── Jupyter runtime ───────────────────────────────────────────────────────────
+ipykernel>=6.0
+
+# ── Backend (FastAPI) ─────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# ── Frontend (Streamlit) ──────────────────────────────────────────────────────
+streamlit>=1.32.0
+requests>=2.31.0
+
+# ── Explainability & RAG ─────────────────────────────────────────────────────
+shap>=0.44.0
+sentence-transformers>=2.7.0
